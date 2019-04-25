@@ -33,10 +33,10 @@ head(power)
 telco = read.csv("TelcoChurn.csv",sep = ",",header=T)
 head(telco)
 ##sedikit penggunaan api untuk crawling dari twitter
-consumer_key = 'OlHsruThlEzRy33fEv29WxBXb'
-consumer_secret = '0BlKLpggSab5avxoc16A54S0GMtEdcwNsyO3kYxNYnoV4N0xCR'
-access_token = '109893644-erMkl8PqBDsoeVcMzqD5eKaju9ZcWW90vOMe6qgh' 
-access_secret = 'zriU8mbxtw0MI9NEN634CS0S9rItOaskAg3yQNXH4Pl11'
+consumer_key = '******************'
+consumer_secret = '******************'
+access_token = '************************' 
+access_secret = '**************************************'
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 tweets = searchTwitter("#AvengersEndgame", n = 1000, lang = "en")
 tweets = twListToDF(tweets)
