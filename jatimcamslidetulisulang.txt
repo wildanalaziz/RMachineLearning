@@ -1,0 +1,23 @@
+yang harus diketik ulang
+-data telco
+-view(telco)
+-lakukan agar muncul str data telco hingga tail
+-missing values demo
+-ketik ulang voltage missing value
+-ketik ulang summaryis na telco
+-histogram demo
+-barplot demo
+-boxplot demo
+-plot korelasi demo
+-lineplot power
+-plot 1 2 3 telco
+-plot multiplot
+-plot9
+-peramalan
+-model awal regresi
+-cleaning kategorikal feature
+-standardizing
+-merging data
+-smote
+-step aic
+-conf matrix
